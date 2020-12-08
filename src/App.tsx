@@ -6,10 +6,10 @@ import TransactionList from './components/TransactionList';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Expense Tracker</h1>
+    <div className='App box'>
+      <h2>Expense Tracker</h2>
       <Balance />
-      <h2>graph</h2>
+      <h3>graph</h3>
     <TransactionList />
     <AddTransaction />
     </div>

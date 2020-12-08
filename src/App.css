@@ -12,14 +12,25 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  background-color: #6ead68;
+  background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  width: 90vw;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    background-color: white;
+}
 
+
+.box {
+  border: 15px dashed green;
+  padding: 50px;
+  margin: 20px;
+  height: 600px;
+  width: 400px;
+  border-radius: 5px
 }
